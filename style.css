@@ -1,0 +1,243 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+.blue_head {
+  color: #6C6E7A;
+}
+
+.red_btn {
+  padding: 0.3em 0.5em;
+  background-color: #FF0000;
+  color: #ffffff;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 60px;
+  max-width: 600px;
+  text-align: center;
+  margin: 0em auto;
+}
+
+.red_btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.red_btn .red_btn_container {
+  width: 100%;
+  text-align: center;
+}
+
+.red_btn a {
+  color: #ffffff;
+}
+
+body {
+  font-size: 25px;
+  background-color: #F7F7F7;
+}
+
+body header .logo_head {
+  background-color: #F7F7F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+}
+
+body header .logo_head .main_logo {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .logo_head .main_logo img {
+  width: 100px;
+}
+
+body header .logo_head .main_logo h2 {
+  color: #808000;
+}
+
+body header .logo_head .search {
+  width: 25%;
+  display: none;
+}
+
+body header nav {
+  display: none;
+}
+
+body main {
+  width: 90%;
+  margin: 0em auto;
+  background-color: #ffffff;
+  padding: 2em;
+}
+
+body main .sub_nav {
+  display: none;
+}
+
+body main .section_1 .akin {
+  background-color: #E2E2E2;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .section_1 .akin .akin_img {
+  text-align: center;
+}
+
+body main .section_1 .akin .akin_img img {
+  width: 250px;
+  margin: 0em auto;
+}
+
+body main .section_3 .drug {
+  text-align: center;
+  margin: 4em 0em;
+}
+
+body main .section_3 .drug img {
+  width: 150px;
+}
+
+body main .section_4 h3 {
+  background-color: #DAE2E8;
+  color: #45688E;
+  padding: 0.3em 0.3em 0.1em 0.3em;
+}
+
+body main .section_4 .comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .section_4 .comments div {
+  border-top: 2px solid #DAE1E8;
+  padding: 1em 0em;
+  margin-right: 0.5em;
+}
+
+body main .section_4 .comments div img {
+  width: 70px;
+}
+
+body main .section_4 .comments .date {
+  color: #999999;
+  font-size: 1em;
+}
+
+body main .section_4 .comments p {
+  margin: 0em;
+  padding: 0em;
+}
+
+body main .section_4 .comments h4 {
+  margin: 0.3em;
+}
+
+body footer {
+  text-align: center;
+}
+
+body footer h3 {
+  color: #A12000;
+}
+
+@media (min-width: 950px) {
+  body {
+    font-size: 25px;
+    background-color: #F7F7F7;
+  }
+  body header .logo_head .main_logo {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body header .logo_head .search {
+    width: 40%;
+    display: block;
+    text-align: right;
+  }
+  body header .logo_head .search a input {
+    font-size: 1em;
+  }
+  body header nav {
+    display: block;
+    background-color: #333541;
+  }
+  body header nav ul {
+    display: inline-block;
+    padding-left: 6em;
+  }
+  body header nav ul li {
+    display: inline-block;
+  }
+  body header nav ul li a {
+    color: #ffffff;
+    margin-right: 0.9em;
+  }
+  body header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  body main {
+    width: 90%;
+    margin: 0em auto;
+    background-color: #ffffff;
+    padding-top: 0.5em;
+  }
+  body main .sub_nav {
+    display: block;
+  }
+  body main .sub_nav ul li {
+    display: inline-block;
+  }
+  body main .sub_nav ul li a {
+    color: #1697D1;
+  }
+  body main .sub_nav ul li a:hover {
+    text-decoration: underline;
+  }
+  body main .section_1 .akin {
+    background-color: #E2E2E2;
+    padding: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body main .section_1 .akin .akin_img {
+    text-align: center;
+  }
+  body main .section_1 .akin .akin_img img {
+    width: 250px;
+    margin-right: 1em;
+  }
+  body main .section_4 .comments {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=style.css.map */

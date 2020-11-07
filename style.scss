@@ -1,0 +1,252 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+.blue_head{
+  color: #6C6E7A;
+}
+.red_btn{
+  padding: 0.3em 0.5em;
+  background-color:#FF0000;
+  color: #ffffff;
+  transition: 500ms;
+  border-radius: 60px;
+  max-width: 600px;
+  text-align: center;
+  margin: 0em auto;
+  &:hover{
+    transform: scale(1.1);
+  }
+  .red_btn_container{
+    width: 100%;
+    text-align: center;
+  }
+  a{
+    color: #ffffff;
+  }
+}
+
+body{
+  font-size: 25px;
+  background-color: #F7F7F7;
+  header{
+    .logo_head{
+      background-color: #F7F7F7;
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+      .main_logo{
+        width: 70%;
+        display: flex;
+        img{
+          width: 100px;
+        }
+        h2{
+          color: #808000;
+        }
+      }
+      .search{
+        width: 25%;
+        display: none;
+        a{
+          input{
+
+          }
+        }
+      }
+    }
+    nav{
+      display: none;
+      ul{
+        li{
+          a{
+
+          }
+        }
+      }
+    }
+  }
+  main{
+    width: 90%;
+    margin: 0em auto;
+    background-color: #ffffff;
+    padding: 2em;
+    .sub_nav{
+      display: none;
+      ul{
+        li{
+          a{
+            
+          }
+        }
+      }
+    }
+    .section_1{
+      .akin{
+        background-color: #E2E2E2;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        .akin_img{
+          text-align: center;
+          img{
+            width: 250px;
+            margin: 0em auto;
+          }
+        }
+        div{
+          h3{
+          }
+          p{
+          }
+        }
+      }
+    }
+    .section_2{
+      h2{
+        
+      }
+      h3{
+
+      }
+      p{
+
+      }
+    }
+    .section_3{
+      .drug{
+        text-align: center;
+        margin: 4em 0em;
+        img{
+          width: 150px;
+        }
+      }    
+    }
+    .section_4{
+      h3{
+        background-color: #DAE2E8;
+        color: #45688E;
+        padding: 0.3em 0.3em 0.1em 0.3em;
+      }
+      .comments{
+        display: flex;
+        div{
+          border-top: 2px solid #DAE1E8;
+          padding: 1em 0em;
+          margin-right: 0.5em;
+          img{
+            width: 70px;
+          }
+        }
+        .date{
+          color: #999999;
+          font-size: 1em;
+        }
+        p{
+          margin: 0em;
+          padding: 0em;
+        }
+        h4{
+          margin: 0.3em;
+        }
+      }
+    }
+  }
+  footer{
+    text-align: center;
+    h3{
+      color: #A12000;
+    }
+  }
+}
+
+@media (min-width: 950px){
+  body{
+    font-size: 25px;
+    background-color: #F7F7F7;
+    header{
+      .logo_head{
+        .main_logo{
+          width: 60%;
+          display: flex;
+        }
+        .search{
+          width: 40%;
+          display: block;
+          text-align: right;
+          a{
+            input{
+              font-size: 1em;
+            }
+          }
+        }
+      }
+      nav{
+        display: block;
+        background-color: #333541;
+        ul{
+          display: inline-block;
+          padding-left: 6em;
+          li{
+            display: inline-block;
+            a{
+              color: #ffffff;
+              margin-right: 0.9em;
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+    main{
+      width: 90%;
+      margin: 0em auto;
+      background-color: #ffffff;
+      padding-top: 0.5em;
+      .sub_nav{
+        display: block;
+        ul{
+          li{
+            display: inline-block;
+            a{
+              color: #1697D1;
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+      .section_1{
+        .akin{
+          background-color: #E2E2E2;
+          padding: 1em;
+          display: flex;
+          flex-direction: row;
+          .akin_img{
+            text-align: center;
+            img{
+              width: 250px;
+              margin-right:1em ;
+            }
+          }
+          div{
+            h3{
+            }
+            p{
+            }
+          }
+        }
+      }
+      .section_4{
+        .comments{
+          display: flex;
+        }
+      }
+    }
+  }
+}
