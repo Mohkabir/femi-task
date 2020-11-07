@@ -37,7 +37,7 @@
 }
 
 body {
-  font-size: 25px;
+  font-size: 16px;
   background-color: #F7F7F7;
 }
 
@@ -53,18 +53,19 @@ body header .logo_head {
 }
 
 body header .logo_head .main_logo {
-  width: 70%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 body header .logo_head .main_logo img {
-  width: 100px;
+  width: 80px;
 }
 
 body header .logo_head .main_logo h2 {
   color: #808000;
+  font-size: 1em;
 }
 
 body header .logo_head .search {
@@ -80,7 +81,7 @@ body main {
   width: 90%;
   margin: 0em auto;
   background-color: #ffffff;
-  padding: 2em;
+  padding: 1em;
 }
 
 body main .sub_nav {
@@ -104,7 +105,7 @@ body main .section_1 .akin .akin_img {
 }
 
 body main .section_1 .akin .akin_img img {
-  width: 250px;
+  width: 80px;
   margin: 0em auto;
 }
 
