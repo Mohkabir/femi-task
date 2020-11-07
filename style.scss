@@ -29,7 +29,7 @@
 }
 
 body{
-  font-size: 25px;
+  font-size: 16px;
   background-color: #F7F7F7;
   header{
     .logo_head{
@@ -38,13 +38,14 @@ body{
       justify-content: space-between;
       padding: 1em;
       .main_logo{
-        width: 70%;
+        width:100%;
         display: flex;
         img{
-          width: 100px;
+          width: 80px;
         }
         h2{
           color: #808000;
+          font-size: 1em;
         }
       }
       .search{
@@ -72,7 +73,7 @@ body{
     width: 90%;
     margin: 0em auto;
     background-color: #ffffff;
-    padding: 2em;
+    padding: 1em;
     .sub_nav{
       display: none;
       ul{
@@ -92,7 +93,7 @@ body{
         .akin_img{
           text-align: center;
           img{
-            width: 250px;
+            width: 80px;
             margin: 0em auto;
           }
         }
